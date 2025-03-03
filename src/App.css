@@ -1,0 +1,42 @@
+/* App.css */
+.App {
+  background: linear-gradient(45deg, #2600ff,#0c0050, #000000); /* Gradiente de azul para preto */
+  min-height: 100vh; /* Preenche toda a altura da tela */
+  display: flex; /* Alinha horizontalmente */
+  align-items: center; /* Alinha verticalmente */
+  flex-direction: column; /* Coloca os itens na vertical */
+  margin: 0;
+}
+
+.titulo1 {
+  text-align: center;
+  color: #ffffff; /* Cor preta */
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.titulo2{
+  text-align: center;
+  color: #ffffff; /* Cor preta */
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  bottom: 50px;
+  left: 60px;
+}
+.div1{
+  background: rgba(0,0,0,0.5); /* Colore a div de preto com transparencia */
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.5); /* Efeito de sombra */
+  display: flex; /* Alinha horizontalmente */
+  align-items: center; /* Alinha verticalmente */
+  flex-direction: column; /* Coloca os itens na vertical */
+  width: 500px;
+  height: 250px;
+}
+.p1{
+  text-align: center;
+  color: #ffffff; 
+}
